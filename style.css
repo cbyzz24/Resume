@@ -61,19 +61,22 @@ label{
     padding: 10px 40px;
     width: 300px;
     border-radius: 40px;
+    box-shadow: 3px 3px 5px rgba(75, 73, 73, 0.705);
 }
 
 
 .bio{
     margin-top: -100px;
-    margin-left: 35%;
-    background-color: #D29F80;
-    color: white;
+    margin-left: 32%;
+    background-color: #d2a08052;
+    /* background-color: #D29F80; */
+    /* color: white; */
     padding: 25px 15px;
-    width: 550px;
+    width: 650px;
     height: 300px;
     border-radius: 40px;
     text-align: center;
+    box-shadow: 3px 3px 5px rgba(75, 73, 73, 0.705);
 }
 
 .experience{
@@ -83,4 +86,48 @@ label{
     padding: 10px 40px;
     width: 300px;
     border-radius: 40px;
+    box-shadow: 3px 3px 5px rgba(75, 73, 73, 0.705);
+}
+
+.values{
+    margin-left: 35%;
+    width: 500px;
+    background-color: #9aa6b2;
+    padding: 25px;
+    border-radius: 40px;
+    color: white;
+    box-shadow: 3px 3px 5px rgba(75, 73, 73, 0.705);
+}
+
+.quote{
+    margin-top: 5%;
+    margin-left: 40%;
+    width: 300px;
+    background-color: #b2a59b;
+    padding: 25px;
+    border-radius: 40px;
+    font-family: cursive;
+    font-style: italic;
+    box-shadow: 3px 3px 5px rgba(75, 73, 73, 0.705);
+}
+
+.authorName{
+    text-align: center;
+}
+
+
+.links{
+    /* background-color: lightgreen; */
+    margin-top: 70px;
+}
+
+.footerLabel{
+    font-weight: bold;
+}
+
+.linkItems{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85rem;
+    font-style: italic;
 }
