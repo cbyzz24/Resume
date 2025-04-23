@@ -57,8 +57,8 @@ label{
 
 .education{
     /* background-color:hsla(200, 43%, 79%, 0.45); */
-    margin-top: 7px;
-    margin-left: 295px;
+    margin-top: 2%;
+    margin-left: 16%;
     background-color: hsl(173, 35%, 69%);
     padding: 10px 40px;
     width: 300px;
@@ -68,8 +68,8 @@ label{
 
 
 .bio{
-    margin-top: -70px;
-    margin-left: 585px;
+    margin-top: -4%;
+    margin-left: 32%;
     background-color: #d2a080;
     /* background-color: #D29F80; */
     /* color: white; */
@@ -82,8 +82,8 @@ label{
 }
 
 .experience{
-    margin-top: -70px;
-    margin-left: 1175px;
+    margin-top: -4%;
+    margin-left: 64%;
     background-color:#B1D0E0;
     padding: 10px 40px;
     width: 300px;
@@ -92,8 +92,8 @@ label{
 }
 
 .values{
-    margin-top: -150px;
-    margin-left: 460px;
+    margin-top: -11%;
+    margin-left: 22%;
     width: 500px;
     height: 250px;
     background-color: #9aa6b2;
@@ -106,8 +106,8 @@ label{
 }
 
 .quote{
-    margin-top: -93px;
-    margin-left: 926px;
+    margin-top: -5%;
+    margin-left: 50%;
     width: 300px;
     background-color: #b2a59b;
     padding:    25px;
@@ -126,7 +126,9 @@ label{
 
 .links{
     /* background-color: lightgreen; */
-    margin-top: 80px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+    width:80%;
 }
 
 .footerLabel{
