@@ -2,6 +2,7 @@ body{
     margin: 0;
     font-family:Arial, Helvetica, sans-serif;
     background-image: url(images/bgImg5.jpg);
+    /* background-image: url(images/clouds.jpg); */
     background-size: cover;
     background-position: center center;
     height: 100%;
@@ -97,8 +98,10 @@ label{
 #experience{
     background-color:hsl(200, 43%, 79%, 0.50);
     box-shadow: 3px 3px 5px rgba(75, 73, 73, 0.705);
-       overflow-y: scroll;
+    overflow-y: scroll;
+    scrollbar-color: rgba(255, 255, 255, 0.507) transparent;
 }
+
 
 #education{
     background-color: hsl(26, 13%, 65%, 0.50);
