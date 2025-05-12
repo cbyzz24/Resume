@@ -1,18 +1,19 @@
 body{
     margin: 0;
     font-family:Arial, Helvetica, sans-serif;
-    background-image: url(clouds.jpg);
+    background-image: url(images/bgImg5.jpg);
     background-size: cover;
     background-position: center center;
     height: 100%;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     box-sizing: border-box;
 }
 
 .topColorBar{
     height: 70px;
-    background-color: #406882;
+    /* background-color: #406882; */
     /* background-color: #3E5879; */
+    background-color: hsl(214, 32%, 20%);
 }
 
 .mainWrapper{
@@ -23,6 +24,8 @@ body{
 label{
     font-size: 1.25rem;
     font-weight: bold;
+    display: block;
+    text-align: center;
 }
 
 .profileArea{
@@ -48,94 +51,69 @@ label{
     color: #1A374D;
 }
 
-.educationHeader{
-    /* background-color: white; */
+.cardsWrapper{
+    margin-bottom: 35px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
 
-.experienceHeader{
-    /* margin-left: 75%; */
+.card{
+   margin: 10px 20px;
+   padding: 15px 30px;
+   min-width: 400px;
+   max-height: 250px;
+   border-radius: 40px;
 }
 
+.card label{
+    text-decoration: underline;
 
+}
 
+.card ul li{
+    padding-bottom: 10px;
+}
 
-.bio{
-    /* margin-top: -4%;
-    margin-left: 32%; */
-    margin-bottom: 15px;
-    background-color: #d2a080;
-    /* background-color: #D29F80; */
-    /* color: white; */
+#bio{
+    margin: 25px;
+    background-color: hsla(23, 48%, 66%, 0.60);
     padding: 25px 15px;
-    /* width: 650px; */
-    /* height: 300px; */
     border-radius: 40px;
     text-align: center;
     box-shadow: 3px 3px 5px rgba(75, 73, 73, 0.705);
 }
 
-.education{
-    /* background-color:hsla(200, 43%, 79%, 0.45); */
-    /* margin-top: 2%;
-    margin-left: 16%; */
-    margin-bottom: 15px;
-    background-color: hsl(173, 35%, 69%);
-    padding: 10px 40px;
-    /* width: 300px; */
-    border-radius: 40px;
+#qualifications{
+    background-color: hsl(173, 35%, 69%, 0.60);
     box-shadow: 3px 3px 5px rgba(75, 73, 73, 0.705);
 }
 
-.experience{
-    /* margin-top: -4%;
-    margin-left: 64%; */
-    margin-bottom: 15px;
-    background-color:#B1D0E0;
-    padding: 10px 40px;
-    /* width: 300px; */
-    border-radius: 40px;
+
+#experience{
+    background-color:hsl(200, 43%, 79%, 0.60);
+    box-shadow: 3px 3px 5px rgba(75, 73, 73, 0.705);
+       overflow-y: scroll;
+}
+
+#education{
+    background-color: hsl(26, 13%, 65%, 0.60);
     box-shadow: 3px 3px 5px rgba(75, 73, 73, 0.705);
 }
 
-.credentials{
-    /* margin-top: -11%;
-    margin-left: 16%; */
-    margin-bottom: 15px;
-    /* width: 500px; */
-    /* height: 250px; */
-    background-color: #9aa6b2;
-    padding-top: 20px;
-    padding-bottom: 40px;
-    padding-left: 25px;
-    border-radius: 40px;
-    color: white;
+#credentials{
+    background-color: hsl(210, 13%, 65%, 0.60);
     box-shadow: 3px 3px 5px rgba(75, 73, 73, 0.705);
 }
 
-.qualifications{
-    /* margin-top: -2%;
-    margin-left: 40%;
-    width: 300px; */
-    margin-bottom: 15px;
-    background-color: #b2a59b;
-    padding:    25px;
-    /* height: auto; */
-    /* width: 400px; */
-    border-radius: 40px;
-    box-shadow: 3px 3px 5px rgba(75, 73, 73, 0.705);
-}
-
-.quote{
-    /* margin-top: -2%;
-    margin-left: 60%;
-    width: 300px; */
-    margin-bottom: 15px;
-    background-color:#6998AB;
+#quote{
+    margin-bottom: 25px;
+    background-color:hsl(197, 28%, 54%, 0.60);
     color: white;
     padding:    25px;
-    /* height: auto; */
-    /* width: 400px; */
     border-radius: 40px;
+    text-align: center;
     font-family: cursive;
     font-style: italic;
     box-shadow: 3px 3px 5px rgba(75, 73, 73, 0.705);
