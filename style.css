@@ -20,6 +20,18 @@ body{
     padding: 25px;
     color: hsl(206, 50%, 10%);
 }
+.middleWrapper{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    color: hsl(206, 50%, 10%);
+}
+
+
+.lowerWrapper{
+    padding: 25px;
+    color: hsl(206, 50%, 10%);
+}
 
 label{
     font-size: 1.25rem;
@@ -42,7 +54,7 @@ label{
 
 .nameBar{
     margin-top: -10px;
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
     text-align: center;
     text-shadow: rgba(0, 0, 0, 0.507) 1px 1px;
     font-family:sans-serif;
@@ -59,11 +71,12 @@ label{
     flex-direction: row;
     overflow-x: scroll;
     overflow-y: hidden;
-    scrollbar-color: rgba(255, 255, 255, 0.507) transparent;
+    /* scrollbar-color: rgba(255, 255, 255, 0.507) transparent; */
+    scrollbar-color: rgba(255, 255, 255, 0.30) transparent;
 }
 
 .card{
-   margin: 10px 20px;
+   margin: 0px 20px;
    padding: 15px 30px;
    min-width: 400px;
    max-height: 250px;
@@ -80,8 +93,11 @@ label{
 }
 
 #bio{
-    margin: 25px;
-    background-color: hsla(23, 48%, 66%, 0.80);
+    width: 700px;
+    margin: 0px 25px 15px 25px;
+    /* background-color: hsla(23, 48%, 66%, 0.80); */
+    /* background-color: hsl(173, 35%, 69%, 0.80); */
+    background-color: hsl(210, 13%, 65%, 0.90);
     padding: 25px 20px;
     border-radius: 40px;
     text-align: center;
@@ -90,7 +106,8 @@ label{
 }
 
 #qualifications{
-    background-color: hsl(173, 35%, 69%, 0.80);
+    /* background-color: hsl(173, 35%, 69%, 0.80); */
+    background-color: hsla(23, 48%, 66%, 0.80);
     box-shadow: 3px 3px 5px rgba(75, 73, 73, 0.705);
 }
 
@@ -109,15 +126,17 @@ label{
 }
 
 #credentials{
-    background-color: hsl(210, 13%, 65%, 0.80);
+    /* background-color: hsl(210, 13%, 65%, 0.80); */
+    background-color: hsl(173, 35%, 69%, 0.80);
     box-shadow: 3px 3px 5px rgba(75, 73, 73, 0.705);
 }
 
 #quote{
+    /* width: 700px; */
     margin-bottom: 25px;
     background-color:hsl(197, 28%, 54%, 0.80);
     color: white;
-    padding:    25px;
+    padding:    15px;
     border-radius: 40px;
     text-align: center;
     font-family: cursive;
