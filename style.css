@@ -43,6 +43,7 @@ label{
 .profileArea{
     text-align: center;
     margin-top: -35px;
+    /* margin-top: 35px; */
 }
 
 .profilePic{
@@ -97,7 +98,8 @@ label{
     margin: 0px 25px 15px 25px;
     /* background-color: hsla(23, 48%, 66%, 0.80); */
     /* background-color: hsl(173, 35%, 69%, 0.80); */
-    background-color: hsl(210, 13%, 65%, 0.90);
+    /* background-color: hsl(210, 13%, 65%, 0.90); */
+    background-color: hsla(0, 0%, 100%, 0.80);
     padding: 25px 20px;
     border-radius: 40px;
     text-align: center;
@@ -131,12 +133,18 @@ label{
     box-shadow: 3px 3px 5px rgba(75, 73, 73, 0.705);
 }
 
+.quoteWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #quote{
-    /* width: 700px; */
+    width: 700px;
     margin-bottom: 25px;
     background-color:hsl(197, 28%, 54%, 0.80);
     color: white;
-    padding:    15px;
+    padding:    5px;
     border-radius: 40px;
     text-align: center;
     font-family: cursive;
