@@ -94,15 +94,16 @@ label{
 }
 
 #bio{
-    width: 700px;
+    width: 725px;
     margin: 0px 25px 15px 25px;
     /* background-color: hsla(23, 48%, 66%, 0.80); */
     /* background-color: hsl(173, 35%, 69%, 0.80); */
     /* background-color: hsl(210, 13%, 65%, 0.90); */
     background-color: hsla(0, 0%, 100%, 0.80);
-    padding: 25px 20px;
+    padding: 10px 20px;
     border-radius: 40px;
     text-align: center;
+    font-size: 1.15rem;
     font-style: italic;
     box-shadow: 3px 3px 5px rgba(75, 73, 73, 0.705);
 }
@@ -143,7 +144,7 @@ label{
     width: 700px;
     margin-bottom: 25px;
     background-color:hsl(197, 28%, 54%, 0.80);
-    color: white;
+    /* color: white; */
     padding:    5px;
     border-radius: 40px;
     text-align: center;
